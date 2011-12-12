@@ -1,5 +1,7 @@
 A handful of functions, auto-complete helpers, and stuff that makes you shout...
 
+This branch also features zshmarks, a port from bashmarks to zsh
+
 bq. "OH MY ZSHELL!"
 
 h2. Setup
@@ -7,8 +9,9 @@ h2. Setup
 @oh-my-zsh@ should work with any recent release of "zsh":http://www.zsh.org/, the minimum recommended version is 4.3.9.
 
 h3. The automatic installer... (do you trust me?)
+(EDIT) Please notice that i've updated this command to use settings from my personal branch. 
 
-@wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh@
+@wget --no-check-certificate https://github.com/pellegrino/oh-my-zsh/raw/master/tools/install.sh -O - | sh@
 
 h3. The manual way
 
