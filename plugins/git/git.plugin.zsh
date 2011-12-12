@@ -61,3 +61,8 @@ alias ggpush='git push origin $(current_branch)'
 compdef ggpush=git
 alias ggpnp='git pull origin $(current_branch) && git push origin $(current_branch)'
 compdef ggpnp=git
+
+
+# useful command to delete allthethings 
+alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+
