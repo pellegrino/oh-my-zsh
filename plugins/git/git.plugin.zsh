@@ -12,7 +12,6 @@ compdef _git gup=git-fetch
 alias gp='git push'
 compdef _git gp=git-push
 gdv() { git diff -w "$@" | view - }
-<<<<<<< HEAD
 compdef _git gd=git diff
 alias gd= 'gdv'
 compdef _git gdv=git-diff
